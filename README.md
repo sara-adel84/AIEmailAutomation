@@ -31,16 +31,17 @@ AIEmailAutomation/
 │
 ├── email_automation/
 │   ├── __init__.py
-│   ├── config.py
-│   ├── csv_manager.py
-│   ├── order_manager.py
-│   └── email_extractor.py
+│   ├── config.py              # OpenAI API configuration
+│   ├── csv_manager.py         # CSV file operations
+│   ├── email_extractor.py     # AI-powered email extraction and validation
+│   └── order_manager.py       # Order verification and business rules
 │
-├── main.py
-├── requirements.txt
-├── customer_emails.csv
-├── README.md
-└── .gitignore
+├── customer_emails.csv        # Sample customer emails
+├── main.py                    # Main application entry point
+├── requirements.txt           # Project dependencies
+├── README.md                  # Project documentation
+└── .gitignore                 # Files excluded from Git
+
 
 ## How to Run
 
