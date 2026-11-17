@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+api_key.env
+processed_emails.csv
+processed_emails_backup.csv
+.DS_Store
