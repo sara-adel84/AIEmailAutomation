@@ -26,21 +26,22 @@ It extracts important information from customer emails, checks order details, an
 - Exception Handling
 
 ## Project Structure
-
+``text
 AIEmailAutomation/
 │
 ├── email_automation/
 │   ├── __init__.py
-│   ├── config.py              # OpenAI API configuration
-│   ├── csv_manager.py         # CSV file operations
-│   ├── email_extractor.py     # AI-powered email extraction and validation
-│   └── order_manager.py       # Order verification and business rules
+│   ├── config.py              
+│   ├── csv_manager.py         
+│   ├── email_extractor.py     
+│   └── order_manager.py       
 │
-├── customer_emails.csv        # Sample customer emails
-├── main.py                    # Main application entry point
-├── requirements.txt           # Project dependencies
-├── README.md                  # Project documentation
-└── .gitignore                 # Files excluded from Git
+├── customer_emails.csv        
+├── main.py                   
+├── requirements.txt           
+├── README.md                  
+└── .gitignore                 
+```
 
 
 ## How to Run
