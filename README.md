@@ -26,21 +26,19 @@ It extracts important information from customer emails, checks order details, an
 - Exception Handling
 
 ## Project Structure
-``text
+```text
 AIEmailAutomation/
-│
 ├── email_automation/
 │   ├── __init__.py
-│   ├── config.py              
-│   ├── csv_manager.py         
-│   ├── email_extractor.py     
-│   └── order_manager.py       
-│
-├── customer_emails.csv        
-├── main.py                   
-├── requirements.txt           
-├── README.md                  
-└── .gitignore                 
+│   ├── config.py
+│   ├── csv_manager.py
+│   ├── email_extractor.py
+│   └── order_manager.py
+├── customer_emails.csv
+├── main.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 
